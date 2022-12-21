@@ -12,6 +12,9 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
+        
+        System.out.println("Log de mi microservicio");
+        
         return "Casi terminamos!!! Ricardo solo un poco mas.... ";
     }
 
